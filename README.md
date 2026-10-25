@@ -26,6 +26,9 @@ A UPnP streamer - I'm using AssetUPnP as my primary streamer but this also seems
 given the limited testing I'm done. It will probably work with others too but I've not tested it with
 anything else.
 
+For the logger itself you'll need to pip install aiostreammagic for the wordclouds you'll need to pip
+install wordcloud.
+
 ## Installation
 You'll need to create a python virtual environment, something like:
 ```bash
