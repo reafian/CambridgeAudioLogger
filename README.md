@@ -98,34 +98,34 @@ This records:
 ### streamer_playback.db
 This contains three tables:
 - asset_library
--- Album
--- album_key
--- Artist
--- disc_number
--- Genre
--- Title
--- title_key
--- track_number
+ - Album
+ - album_key
+ - Artist
+ - disc_number
+ - Genre
+ - Title
+ - title_key
+ - track_number
 
 - asset_library_staging
--- Album
--- album_key
--- Artist
--- disc_number
--- Genre
--- Title
--- title_key
--- track_number
+ - Album
+ - album_key
+ - Artist
+ - disc_number
+ - Genre
+ - Title
+ - title_key
+ - track_number
 
 - playback
--- Album
--- Artist
--- Genre
--- Played Duration (Min)
--- Player Duration (Sec)
--- Start Time
--- Stop Time
--- Track
+ - Album
+ - Artist
+ - Genre
+ - Played Duration (Min)
+ - Player Duration (Sec)
+ - Start Time
+ - Stop Time
+ - Track
 
 ### update_asset_library.py
 This is for immediately updating the streamer_playback database with any new tracks that have been added recently.
