@@ -36,18 +36,18 @@ python3 -m venv venv
 ```
 Change owenership and permissios as required. My structure is pretty simple:
 
-axn10-tracker/
-├── axn10-logger.py
-├── calculate_totals.py
-├── calculate_totals_sql.py
-├── generate_axn10_webpage.py
-├── generate_wordclouds.py
-├── now_playing.py
-├── streamer_playback_log.csv
-├── streamer_playback.db
-├── update_asset_library.py
-│   
-└── venv
+>axn10-tracker/
+>├── axn10-logger.py
+>├── calculate_totals.py
+>├── calculate_totals_sql.py
+>├── generate_axn10_webpage.py
+>├── generate_wordclouds.py
+>├── now_playing.py
+>├── streamer_playback_log.csv
+>├── streamer_playback.db
+>├── update_asset_library.py
+>│   
+>└── venv
 
 The log file and database paths are completely configurable so use whatever structure works best for you.
 
